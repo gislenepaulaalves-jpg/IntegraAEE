@@ -1,1 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto William | Inteligência para Educação Inclusiva</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#F4F7FC;
+color:#222;
+line-height:1.7;
+}
+
+header{
+
+background:linear-gradient(135deg,#0F4C81,#2F80ED);
+
+color:white;
+padding:80px 10%;
+}
+
+.hero{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:40px;
+
+}
+
+.hero-text{
+flex:1;
+min-width:320px;
+}
+
+.hero-text h1{
+
+font-size:52px;
+margin-bottom:15px;
+font-weight:800;
+
+}
+
+.hero-text h2{
+
+font-size:24px;
+font-weight:400;
+opacity:.95;
+margin-bottom:30px;
+
+}
+
+.hero-text p{
+
+font-size:18px;
+margin-bottom:30px;
+
+}
+
+.btn{
+
+display:inline-block;
+padding:15px 35px;
+background:#FFD54F;
+color:#000;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:white;
+transform:translateY(-3px);
+
+}
+
+.hero-card{
+
+flex:1;
+min-width:320px;
+
+background:rgba(255,255,255,.12);
+
+padding:40px;
+
+border-radius:25px;
+
+backdrop-filter:blur(10px);
+
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+.hero-card h3{
+
+margin-bottom:20px;
+font-size:28px;
+
+}
+
+.hero-card ul{
+
+list-style:none;
+
+}
+
+.hero-card li{
+
+padding:12px 0;
+
+font-size:18px;
+
+}
+
+section{
+
+padding:80px 10%;
+
+}
+
+.titulo{
+
+font-size:38px;
+text-align:center;
+margin-bottom:20px;
+color:#0F4C81;
+
+}
+
+.sub{
+
+text-align:center;
+max-width:900px;
+margin:auto;
+margin-bottom:60px;
+color:#555;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+
+color:#2F80ED;
+
+}
+
+.card p{
+
+color:#555;
+
+}
+
+.banner{
+
+background:#0F4C81;
+
+color:white;
+
+text-align:center;
+
+padding:80px 10%;
+
+}
+
+.banner h2{
+
+font-size:42px;
+
+margin-bottom:20px;
+
+}
+
+.banner p{
+
+font-size:20px;
+
+max-width:900px;
+
+margin:auto;
+
+margin-bottom:30px;
+
+}
+
+table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin-top:40px;
+
+background:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+th{
+
+background:#2F80ED;
+
+color:white;
+
+padding:18px;
+
+}
+
+td{
+
+padding:18px;
+
+border-bottom:1px solid #EEE;
+
+}
+
+footer{
+
+background:#111827;
+
+color:white;
+
+text-align:center;
+
+padding:40px;
+
+}
+
+.badge{
+
+display:inline-block;
+
+padding:8px 15px;
+
+border-radius:30px;
+
+background:#EAF2FF;
+
+color:#2F80ED;
+
+font-weight:bold;
+
+margin:8px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h1>🚀 Projeto William</h1>
+
+<h2>Inteligência, Inclusão e Governança para a Educação Especial</h2>
+
+<p>
+
+Uma plataforma SaaS desenvolvida para transformar a gestão da Educação Inclusiva,
+automatizando o PDI/PEI com Inteligência Artificial, garantindo continuidade do histórico escolar
+e promovendo transparência na aplicação dos recursos públicos.
+
+</p>
+
+<a href="#" class="btn">Conhecer a Plataforma</a>
+
+</div>
+
+<div class="hero-card">
+
+<h3>✨ Destaques</h3>
+
+<ul>
+
+<li>🤖 Inteligência Artificial para elaboração do PDI</li>
+
+<li>📚 Metas SMART alinhadas à BNCC</li>
+
+<li>♿ Comunicação Alternativa Integrada (CAA)</li>
+
+<li>🛂 Passaporte do Estudante Inclusivo</li>
+
+<li>📊 Dashboard para Gestores</li>
+
+<li>💰 Auditoria do FUNDEB</li>
+
+<li>🔒 Blockchain para rastreabilidade</li>
+
+<li>☁ Plataforma SaaS</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="titulo">🌟 Nossa Missão</h2>
+
+<p class="sub">
+
+Simplificar o trabalho dos educadores, fortalecer a Educação Inclusiva,
+garantir a continuidade pedagógica dos estudantes e oferecer às redes de ensino
+uma plataforma inteligente baseada em evidências.
+
+</p>
+
+</section>
+
+<section>
+
+<h2 class="titulo">🏛️ Os 4 Pilares da Plataforma</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🧠 PDI Co-Pilot</h3>
+
+<p>
+
+IA especializada que auxilia professores na criação de PDIs com metas SMART,
+estratégias inclusivas, decomposição de tarefas e recomendações pedagógicas.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>💰 Governança do AEE</h3>
+
+<p>
+
+Controle das matrículas, acompanhamento dos atendimentos,
+painéis gerenciais e rastreabilidade dos recursos do FUNDEB.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🗣 Comunicação Alternativa</h3>
+
+<p>
+
+Prancha Digital com pictogramas, sintetizador de voz
+e coleta automática das interações realizadas pelos estudantes.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🛂 Passaporte Inclusivo</h3>
+
+<p>
+
+Histórico permanente do estudante acompanhando toda sua trajetória escolar,
+preservando intervenções e estratégias de sucesso.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">⚙ Arquitetura Inteligente</h2>
+
+<div style="text-align:center;">
+
+<span class="badge">🔒 PostgreSQL</span>
+
+<span class="badge">☁ Supabase</span>
+
+<span class="badge">⚙ Node.js</span>
+
+<span class="badge">🚀 Express</span>
+
+<span class="badge">🤖 IA Generativa</span>
+
+<span class="badge">⛓ Solana Blockchain</span>
+
+<span class="badge">🛡 LGPD</span>
+
+<span class="badge">🪪 Soulbound Token</span>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">📊 Comparativo</h2>
+
+<table>
+
+<tr>
+
+<th>Dimensão</th>
+
+<th>Modelo Tradicional</th>
+
+<th>Projeto William</th>
+
+</tr>
+
+<tr>
+
+<td>📄 PDI</td>
+
+<td>Manual e burocrático</td>
+
+<td>IA com elaboração automática</td>
+
+</tr>
+
+<tr>
+
+<td>📚 Histórico</td>
+
+<td>Pastas físicas</td>
+
+<td>Passaporte Digital Permanente</td>
+
+</tr>
+
+<tr>
+
+<td>📊 Gestão</td>
+
+<td>Planilhas</td>
+
+<td>Dashboard Inteligente</td>
+
+</tr>
+
+<tr>
+
+<td>💰 Auditoria</td>
+
+<td>Difícil fiscalização</td>
+
+<td>Blockchain + Evidências</td>
+
+</tr>
+
+<tr>
+
+<td>♿ Inclusão</td>
+
+<td>Registros manuais</td>
+
+<td>CAA integrada com métricas</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="banner">
+
+<h2>🎯 Transformando a Educação Inclusiva</h2>
+
+<p>
+
+Mais que um sistema de PDI.
+
+Uma plataforma completa de Inteligência Educacional,
+Governança Pública, Inclusão, Blockchain e Continuidade da Aprendizagem.
+
+</p>
+
+<a href="#" class="btn">Solicitar Demonstração</a>
+
+</section>
+
+<footer>
+
+<h3>🚀 Projeto William</h3>
+
+<p>
+
+Inteligência • Inclusão • Acessibilidade • Governança • Inovação
+
+</p>
+
+<br>
+
+<p>
+
+© 2026 Projeto William — Todos os direitos reservados.
+
+</p>
+
+</footer>
+
+</body>
+</html>
 
